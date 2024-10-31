@@ -1,0 +1,32 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ #avijovo-ptfw--grid-container .avijovo-ptfw-ttl {
+padding:0;
+margin:0;
+}
+#avijovo-ptfw--grid-container .avijovo-ptfw-price {
+padding:0;
+margin:10px 0;
+}
+#avijovo-ptfw--grid-container .avijovo-ptfw-products-wrap {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+grid-gap: 20px;
+align-items: stretch;
+}  
+#avijovo-ptfw--grid-container .avijovo-ptfw-products-wrap > article {
+border: 1px solid #ccc;
+box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}  
+#avijovo-ptfw--grid-container .avijovo-ptfw-products-wrap > article img {
+width: 100%;
+max-width: 100%;
+}  
+#avijovo-ptfw--grid-container .avijovo-ptfw-products-wrap .avijovo-ptfw-products-text {
+padding: 20px;
+}
+#avijovo-ptfw--grid-container #avijovo-ptfw-products-quantity {
+    width: 20%;
+}

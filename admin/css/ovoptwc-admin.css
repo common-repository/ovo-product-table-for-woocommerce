@@ -1,0 +1,114 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ .toplevel_page_avijovo-product-table #wpcontent {padding:0;}
+ .avidn     {display:none;}
+ .avidb     {display:block;}
+ .avidf     {display:flex;}
+ .avipd-0   {padding:0;}
+ .avimr-0   {margin:0;}
+ .avipdt-20 {padding-top: 20px;}
+ .avipdt-30 {padding-top: 30px;}
+ .avipdb-30 {padding-bottom: 30px;}
+ .avipdr-20 {padding-right: 20px;}
+ .avipd-80  {padding: 80px;}
+ .avipd-20  {padding: 20px;}
+ .avijc-sb  {justify-content: space-between;}
+ .avijc-c   {justify-content: center;}
+ .avita-c   {text-align: center;}
+ #wrapavijo-avjptfw * {
+     box-sizing:border-box;
+ }
+ #wrapavijo-avjptfw {	
+     margin:0;
+     box-sizing:border-box;
+ }
+ .avjptfw-avijovo-setting-view.active{display:block;}
+ 
+ #wrapavijo-avjptfw .avijofrmheader {	
+     background-color: #818D97;
+     color: #fff;		
+ }
+ .avjptfw-avijovo-hd-title{	
+     width: 100%;   
+     padding: 30px;   
+     font-size: 18px;
+     border: none;
+     background-color:transparent;		
+ }
+ #wrapavijo-avjptfw .avijo-steps-form { margin: 40px;}
+ .avijo-steps-details-avjptfw { background: #fff;}
+ 
+ #wrapavijo-avjptfw .avijo-steps-form .avijo-step-list {   
+     border-bottom: #8FACC0 2px solid;
+ }
+ .avijo-steps-details-avjptfw {
+     padding: 30px;
+     -webkit-box-shadow:3px 0 10px 0 #818D97;
+     box-shadow:3px 0 10px 0 #818D97;
+ }
+ #wrapavijo-avjptfw .avijo-steps-form .avijo-step-list .avjptfw-avijovo-setting {
+     background-color:#D2E4F1;
+     color:#000;
+     padding: 12px;
+     font-size: 14px;
+     margin-right: 5px;
+     text-decoration: none;   
+     border-bottom: 0;
+     width: 12%;
+     text-align: center;
+ }
+ #wrapavijo-avjptfw .avijo-steps-form .avijo-step-list .avjptfw-avijovo-setting.active {
+     background-color:#8FACC0;
+     color:#fff;
+ }
+ #wrapavijo-avjptfw .avijo-steps-form h2.avijo-title {	
+     font-size: 18px;
+     font-weight: 500;	
+     text-transform:capitalize;
+ }
+
+ a.BtnAvijovoEdit {
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.BtnAvijovoSubmit #submit {
+	display: inline-block;
+	text-align: center;
+	font-size: 0.85em !important;
+	font-weight: bold !important;
+	color:#fff !important;
+	background-color: #374043 !important;
+	background: #374043 !important;
+	-webkit-border-radius: 4px !important;
+	border-radius: 4px !important;
+	border:2px solid #374043 !important;
+	padding: 0.35em 1em !important;
+	text-decoration: none;
+	cursor: pointer;	
+}
+.wrapavijo-shortcode {
+    border: 2px dotted #80808036;
+    background: #80808008;
+    display: inline-block;
+    vertical-align: top;  
+    padding: 0.5rem;
+    line-height: 24px;
+    }
